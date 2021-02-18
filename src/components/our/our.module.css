@@ -1,0 +1,108 @@
+.fdiv{
+    text-align: center;
+}
+
+.ftitle{
+    padding-top: 40px;
+    color: #7b6c63;
+    text-transform: uppercase;
+}
+
+.sections{
+    display: flex;
+    width: 100vw;
+    padding-top: 40px;
+    flex-wrap: wrap;
+}
+
+.section1{
+    width: 45%;
+}
+
+.section2{
+    width: 10%;
+}
+
+.section3{
+    width: 45%;
+}
+
+
+.photo{
+    text-align-last: right;
+    padding-top: 100px;
+}
+.march{
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgb(123, 108, 99);
+    padding-top: 40px;
+    text-align-last: right;
+
+}
+
+.title{
+    font-size: 24px;
+    font-family: "Raleway";
+    color: rgb(33, 33, 33);
+    text-align: left;
+    padding-top: 20px;
+    text-align-last: right;
+
+}
+
+.text{
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgb(148, 148, 148);
+    padding-top: 20px;
+    text-align-last: right;
+
+}
+
+.april{
+    padding-top: 100px;
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgb(123, 108, 99);
+}
+
+.title2{
+    padding-top: 20px;
+    font-size: 24px;
+    font-family: "Raleway";
+    color: rgb(33, 33, 33);
+}
+
+.text2{
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgb(148, 148, 148);
+    padding-top: 20px;
+}
+
+
+.photo2{
+    padding-top: 100px;
+}
+
+.photo3{
+text-align: center;
+    padding-top: 100px;
+}
+
+.post{
+    border: 10px solid #ebebeb;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #7b6c63;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+

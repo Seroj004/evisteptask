@@ -1,0 +1,61 @@
+.main{
+    background-color: rgba(48, 48, 48, 1);
+}
+
+.menu{
+    text-transform: uppercase;
+    list-style-type: none;
+    display: flex;
+    cursor: pointer;
+
+
+
+
+
+}
+.menu li{
+    margin-left: 20px;
+    color: #f3f3f3;
+
+}
+
+.menu li:hover{
+    border-bottom: 5px solid #7b6c63;
+    padding: 5px;
+}
+
+
+.center{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link{
+    text-decoration: none;
+    color: #f3f3f3;
+    display: flex;
+
+}
+.logo{
+    cursor: pointer;
+}
+
+@media all and (max-width:1090px) {
+    .nav{
+        color: blue;
+        position: absolute;
+        right: 0;
+        width: unset;
+
+    }
+    .menu{
+        flex-direction: column;
+
+    }
+
+}
+
+.active{
+    color: red;
+    padding: 10px;
+}
